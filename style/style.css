@@ -1,0 +1,109 @@
+body {
+    font-family: arial;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    background-color: black;
+  }
+  
+  a {
+    color: black;
+    padding: 5px;
+  }
+  a:hover {
+    color: blue;
+  }
+  
+  .container {
+    width: 650px;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #dc143c;
+    border-radius: 5px;
+    box-shadow: 5px 5px #d3d3d3;
+  }
+  
+  #nav-bar {
+    text-align: center;
+    width: 98%;
+    padding: 10px;
+    background-color: grey;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    /* position: fixed; */
+    top: 0; 
+  }
+  
+  .nav-link {
+    color: white;
+
+  }
+
+  #header-img {
+    display: block;
+    margin: auto;
+    width: 200;
+    height: 200px;
+  }
+  
+  #main {
+    background-color: #dc143c;
+    margin: 20px;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    box-shadow: 5px 5px #d3d3d3;
+  }
+  
+  h2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  #hilux {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  #jaguar {
+    width: 30%;
+    margin: 10px;
+  }
+  
+  #lambo {
+    width: 30%;
+    margin: 10px;
+  }
+  
+
+  
+  #form {
+    padding: 50px;
+    padding-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  #email {
+    width: 60%;
+    font-size: 1em;
+  }
+  
+  #submit {
+    font-size: 1em;
+  }
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
